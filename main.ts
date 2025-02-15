@@ -1,3 +1,6 @@
+input.onSound(DetectedSound.Loud, function () {
+    STEP += 1
+})
 input.onGesture(Gesture.Shake, function () {
     STEP += 1
 })
