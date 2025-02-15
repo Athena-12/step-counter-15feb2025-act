@@ -9,6 +9,4 @@ input.onLogoEvent(TouchButtonEvent.Pressed, function () {
 })
 let STEP = 0
 STEP = 0
-basic.forever(function () {
-	
-})
+input.setSoundThreshold(SoundThreshold.Loud, 180)
